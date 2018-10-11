@@ -29,7 +29,7 @@ public class Point {
     return a.distanceTo(b);
   }
   public String toString() {
-    return "Point: ( " + x + " , " + y + " )";
+    return "(" + x + "," + y + ")";
   }
 
   public Point copy() {
