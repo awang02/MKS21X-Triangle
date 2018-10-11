@@ -12,7 +12,11 @@ public class Driver {
     //System.out.println(  Point.distance(P1,P2)); //static in the Point class
     System.out.println( P1.getX());
     System.out.println( P1.getY());
-    System.out.println( P1.distanceTo(P2)); //non-static in the Point class.
+    System.out.println( P1.distanceTo(P2)); //non-static in the Point
+    System.out.println( P1.distance(P1,P2));
+    System.out.println( P1);
+    System.out.println( P2);
+
     //It is IMPLIED strongly that this is non static because you need info from P1 to calculate the distance
     //You cannot tell by the calling style alone, this is why we prefer to use CLASS.Method() for static calls.
 

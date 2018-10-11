@@ -25,7 +25,13 @@ public class Point {
     double y2 = this.y;
     return Math.sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
   }
-  
+  public static double distance(Point a, Point b) {
+    return a.distanceTo(b);
+  }
+  public String toString() {
+    return "Point: ( " + x + " , " + y + " )";
+  }
+
   public Point copy() {
     return new Point(this);
   }
